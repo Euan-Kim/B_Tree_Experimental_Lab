@@ -48,6 +48,10 @@ void InsertionAndParameterTuning(const StudentArray& records, size_t& order, uns
 		times[i] = us.count();
 	}
 	cout << "Insertion completed." << endl;
+	cout << "Depth of the trees:" << endl;
+	cout << "BTree: " << btree->GetDepth() << endl;
+	cout << "BStarTree: " << bstartree->GetDepth() << endl;
+	cout << "BPlusTree: " << bplustree->GetDepth() << endl;
 	cout << endl;
 	cout << "Total execution time:" << endl;
 	cout << "BTree: " << times[0] << "(micro seconds)" << endl;
