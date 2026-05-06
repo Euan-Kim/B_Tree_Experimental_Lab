@@ -1,4 +1,4 @@
-# B_Tree_Experimental_Lab (Assignment 1 of CSE321)
+# B Tree Experimental Lab v1.0 (Assignment 1 of CSE321)
 
 A C++ experimental laboratory designed to implement and compare various B-Tree data structures, including B-Tree, B*-Tree, and B+-Tree.
 
