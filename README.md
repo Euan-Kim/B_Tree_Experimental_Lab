@@ -12,6 +12,7 @@ The project is organized into `include` for header files and `src` for implement
 .
 ├── CMakeLists.txt        # Build configuration
 ├── student.csv           # Csv file for input
+├── input.txt             # Example instructions for the experiment
 ├── include/              # Header files
 │   ├── student.h         # Basic data structure for Student information
 │   ├── io.h              # ReadStudentCsv implementation
@@ -63,5 +64,11 @@ Once the build is successful, the executable btel will be located in the build d
 ./build/btel
 ```
 
-## 5. Usage
+## 5. Using example instructions
 
+To use the example instructions, run with the following command.
+
+```Bash
+# Execute the program with the example instructions
+./build/btel < input.txt
+```
