@@ -4,9 +4,9 @@ A C++ experimental laboratory designed to implement and compare various B-Tree d
 
 ## 1. Project Structure
 
-The project is organized into `include` for header files and `src` for implementation files. The dependencies between files are outlined below.
+The project is organized into `include` for header files and `src` for implementation files. The directory layout is outlined below.
 
-### Directory Layout & Dependencies
+### Directory Layout
 
 ```text
 .
