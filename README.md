@@ -2,6 +2,22 @@
 
 A C++ experimental laboratory designed to implement and compare various B-Tree data structures, including B-Tree, B*-Tree, and B+-Tree.
 
+```text
+Welcome to B-Tree Experimental Lab v1.0 by Euan Kim.
+You must generate trees first to perform other experiments.
+Also, you have to generate trees agian after the deletion to perform other experiments.
+Current state of the trees: order = 0, random seed = 0
+=======================Menu=======================
+[1] Insertion & Parameter Tuning(Generate Trees)
+[2] Point Search
+[3] Range Query
+[4] Deletion & Structural Integrity(Delete Trees)
+[5] Additional Experiments: Bulk Loading(Generate Trees)
+[6] Exit
+==================================================
+Choose a number:
+```
+
 ## 1. Project Structure
 
 The project is organized into `include` for header files and `src` for implementation files. The directory layout is outlined below.
