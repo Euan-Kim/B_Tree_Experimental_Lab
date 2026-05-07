@@ -82,7 +82,7 @@ Once the build is successful, the executable btel will be located in the build d
 
 ## 5. Using example instructions
 
-To use the example instructions, run with the following command.
+To use the example instructions which reproduce the experiment for the report, run with the following command.
 
 ```Bash
 # Execute the program with the example instructions
