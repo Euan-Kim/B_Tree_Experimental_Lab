@@ -2,9 +2,6 @@
 #include "bplustree.h"
 #include <vector>
 
-// ==========================================
-// BTree::BulkLoading Implementation
-// ==========================================
 void BTree::BulkLoading(const std::size_t* rids_array, std::size_t count)
 {
     // Clear the existing tree if it exists
@@ -103,9 +100,6 @@ void BTree::BulkLoading(const std::size_t* rids_array, std::size_t count)
     depth = current_depth;
 }
 
-// ==========================================
-// BPlusTree::BulkLoading Implementation
-// ==========================================
 void BPlusTree::BulkLoading(const std::size_t* rids_array, std::size_t count)
 {
     // Clear the existing tree if it exists
